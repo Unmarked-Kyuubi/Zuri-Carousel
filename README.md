@@ -1,2 +1,2 @@
 # Zuri-Carousel
-A javascript hassignment to make a carousel component
+Javascript assignment to make a carousel component
