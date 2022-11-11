@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8" />
+   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   <title>Zuri Carousel</title>
+   <link rel="stylesheet" href="style.css" />
+   <script src="script.js" defer ></script>
+</head>
+
+<body>
+   <header class="header">
+      <img src="assets/logo.svg" alt="Zuri Carousel" class="header__logo" />
+   </header>
+   <section aria-label="Travel Photos" >
+<div class="carousel" data-carousel>
+   <ul role="list" class="slide__container" data-slides >
+      <li class="slide__item " data-active >
+         <img src="assets/img-one.jpg" alt="Travel image one" class="carousel__img " />
+      </li>
+      <li class="slide__item">
+         <img src="assets/img-two.jpg" alt="Travel image one" class="carousel__img" />
+      </li>
+      <li class="slide__item">
+         <img src="assets/img-three.jpg" alt="Travel image two" class="carousel__img" />
+      </li>
+      <li class="slide__item">
+         <img src="assets/img-four.jpg" alt="Travel image two" class="carousel__img" />
+      </li>
+      <li class="slide__item">
+         <img src="assets/img-five.jpg" alt="Travel image three" class="carousel__img" />
+      </li>
+      <li class="slide__item">
+         <img src="assets/img-six.jpg" alt="Travel image three" class="carousel__img" />
+      </li>
+   </ul>
+
+   <button class="arrow arrow__next" data-carousel-button="next">
+      <img src="/assets/iconmonstr-arrow-64.svg" alt="next" class="arrow__img" />
+   </button>
+
+   <button class="arrow arrow__prev" data-carousel-button="prev">
+      <img src="assets/iconmonstr-arrow-63.svg" alt="prev" class="arrow__img" />
+   </button>
+</div>
+
+      
+   </section>
+</body>
+
+</html>
